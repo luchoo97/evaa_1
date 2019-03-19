@@ -30,35 +30,53 @@
       </li>
       </ul>
 
-
-      <SCRIPT  language=JavaScript> 
-          function go(){
-          if (document.form.password.value=='RUT' && document.form.login.value=='contraseña'){ 
-                  document.form.submit(); 
+   <!--     
+     <SCRIPT  language=JavaScript> 
+          function usucon(){
+          if (document.form.password.value=='196993002' && document.form.login.value=='123'){ 
+                 
               } 
               else{ 
                    alert("Porfavor ingrese, nombre de usuario y contraseña correctos."); 
               } 
           } 
           </SCRIPT> 
+   -->
+   
+   <script>
+    function usrpas(){
+
+      var rut=document.getElementById("RUT").value;
+      var contraseña=document.getElementById("contraseña").value;
+    if (rut=="197333286" && contraseña=="1234"){
+      alert("correcto!!!"); 
+      location.href="cartola.html";
+    }
+  
+    else {
+      alert("Error en Usuario o Contraseña. Intenta de nuevo.")
+      }
+    
+    }
+    
+    </script>
+ 
 
 
-      <form style="width:200px" action="cartola.html" >
+      <form style="width:200px">
         <div class="form-group">
-          <label for="RUT" name="RUT">RUT</label>
-          <input type="text" class="form-control" id="RUT" placeholder="RUT">
-          <small id="emailHelp" class="form-text text-muted">Ingrese su RUT</sm,Ñall>
+          <label for="RUT" name="RUT">RUTt</label>
+          <input type="text" class="form-control" id="RUT" (1234) placeholder="RUT" required>
+          <small id="rut" class="form-text text-muted">Ingrese su RUT</smÑall>
         </div>
+
         <div class="form-group">
           <label for="contraseña" name="contraseña">Contraseña</label>
-          <input type="password" class="form-control" id="contraseña" placeholder="clave">
-          <small id="emailHelp" class="form-text text-muted">Ingrese su Clave de Internet</small>
+          <input type="password" class="form-control" id="contraseña" (4321) placeholder="clave" required>
+          <small id="contraseña" class="form-text text-muted">Ingrese su Clave de Internet</small>
         </div>
-        <div class="form-group form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Recordar contraseña</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Entrar</button>
+      
+        <button type="button" class="btn btn-primary" onclick="usrpas()">Entrar</button>
       </form>
 
   </div>
