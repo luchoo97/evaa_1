@@ -1,137 +1,130 @@
 <!DOCTYPE <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-    
-    <link rel="stylesheet" type="text/css" href="navegador.css">
-    <link rel="stylesheet" type="text/css" href="tablas.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="main.js"></script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+
+  <link rel="stylesheet" type="text/css" href="navegador.css">
+  <link rel="stylesheet" type="text/css" href="tablas.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="main.js"></script>
 </head>
 <script>
-        function openNav() {
-            document.getElementById("sideNavigation").style.width = "250px";
-            document.getElementById("main").style.marginLeft = "250px";
-        }
-         
-        function closeNav() {
-            document.getElementById("sideNavigation").style.width = "0";
-            document.getElementById("main").style.marginLeft = "0";
-        }
-        </script>
+  function openNav() {
+    document.getElementById("sideNavigation").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+
+  function closeNav() {
+    document.getElementById("sideNavigation").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+  }
+</script>
+
+<style>
+  h1 {
+    color: #fff;
+  }
+
+  body {
+    background: linear-gradient( #5a3f2e 50%, #fff 50%);
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th,
+  td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+</style>
+
 <body>
-        <center>
-                <h1>
-                        <img src="img/logo.png" width="150px" alt="logo">
-                      </h1></center>
-        <div id="sideNavigation" class="sidenav">
-            
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="#">Resumen</a>
-                <a href="#">Transferencias</a>
-                <a href="#">Pago y Recargas</a>
-                <a href="#">Simulaciones</a>
-                <a href="#">Ahorro e Inversiones</a>
-                <a href="#">Banca Telefonica</a>
-                <a href="#">Emergencias Bancarias</a>
-                <a href="#">Oficina</a>
-                <a href="#">Desactivar Huella</a>
+  <center>
+    <form>
+      <h1>
+        <img src="img/logo.png" width="150px" alt="logo">
+      </h1>
+  </center>
+  <div id="sideNavigation" class="sidenav">
 
-                
-              </div>
-               
-              <nav class="topnav">
-                <a href="#" onclick="openNav()">
-                  
-
-                  <svg width="30" height="30" id="icoOpen">
-                      <path d="M0,5 30,5" stroke="#000" stroke-width="5"/>
-                      <path d="M0,14 30,14" stroke="#000" stroke-width="5"/>
-                      <path d="M0,23 30,23" stroke="#000" stroke-width="5"/>
-                  </svg>
-                </a>
-              </nav>
-               
-              <div id="main">
-                  
-              <!-- Add all your websites page content here  -->
-              </div>
-<div>
-    <center>
-
-         <h1>Hola Luis</h1>
-         <table class="egt">
-                <tbody style="background: rgba(128, 255, 0, 0.3); border: 1px solid rgba(100, 200, 0, 0.3); border-radius: 20px / 10px; ">
-             
-                 <tr>
-                     <th>
-                       <th colspan="5"> <img src="img/puntos.jpg" alt="puntos">
-                        
-                           
-                     </th>
-                 </tr>
-                 
-             </thead>
-            
-         </table>
-
-         <h1><img src="img/imagen2.jpg" width="1400" height="300" alt="puntos"></h1>
-
-         <table >
-
-            <tr>
-                <th>
-                   menu
-                </th>
-            </tr>
-            <tr>
-                <td>
-                    Tranferir a terceros 
-                </td>
-                <td>
-                    Pagar cuentas
-                </td>
-                <td>
-                    Solicitar un Credito
-                </td>
-            </tr>
-
-         </table>
-
-        </div>
-        <div>
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">Resumen</a>
+    <a href="#">Transferencias</a>
+    <a href="#">Pago y Recargas</a>
+    <a href="#">Simulaciones</a>
+    <a href="#">Ahorro e Inversiones</a>
+    <a href="#">Banca Telefonica</a>
+    <a href="#">Emergencias Bancarias</a>
+    <a href="#">Oficina</a>
+    <a href="#">Desactivar Huella</a>
 
 
-        <table class="egt">
-                <thead>
-                  <tr>
-                    <th></th>
-                    <th colspan="2">Anthony</th>
-                    <th colspan="2">Lione</th>
-                  </tr>
-                  <tr>
-                    <th scope="col">Fecha</th>
-                    <th>Income</th>
-                    <th>Outcome</th>
-                    <th>Income</th>
-                    <th>Outcome</th>
-                  </tr>
-                </thead>
-                <tbody style="background: rgba(128, 255, 0, 0.3); border: 1px solid rgba(100, 200, 0, 0.3);">
-                        <tr>
-                          <th>15/07</th>
-                          <td>$200,00</td>
-                          <td>$50,00</td>
-                          <td>$0</td>
-                          <td>$0</td>
-                        </tr>
-                </table>
-                </center>
-</div>
+  </div>
 
+  <nav class="topnav">
+    <a href="#" onclick="openNav()">
+
+
+      <svg width="30" height="30" id="icoOpen">
+        <path d="M0,5 30,5" stroke="#000" stroke-width="5" />
+        <path d="M0,14 30,14" stroke="#000" stroke-width="5" />
+        <path d="M0,23 30,23" stroke="#000" stroke-width="5" />
+      </svg>
+    </a>
+  </nav>
+
+  <div id="main">
+
+    <!-- Add all your websites page content here  -->
+  </div>
 </body>
+<body>
+
+
+  <center>
+
+    <h1>Hola Luis</h1>
+    <img src="img/puntos.jpg" alt="puntos">
+
+
+
+    <h1><img src="img/imagen2.jpg" width="1400" height="300" alt="puntos"></h1>
+
+
+    <h1> MIS PRODUCTOS</h1>
+    <table>
+      <tr>
+        <th>
+          Cuentas Vista
+        </th>
+        <th>
+          Saldo
+        </th>
+      </tr>
+      <tr>
+        <td>
+          5-0555554-000
+        </td>
+        <td>
+          $555.000
+        </td>
+
+
+      </tr>
+
+    </table>
+  </center>
+  </body>
+</div>
+</form>
+
 </html>

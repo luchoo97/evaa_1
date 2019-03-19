@@ -6,7 +6,7 @@
     z-index: 1; /* Stay on top */
     top: 0;
     left: 0;
-    background-color: #1c4024; /* Black*/
+    background-color: #212529; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -49,7 +49,7 @@ body {
  
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #1c4024;
+    background-color: #212529;
     overflow: hidden;
 }
  
@@ -67,7 +67,7 @@ body {
 /* Change the color of links on hover */
 .topnav a:hover {
     background-color: #ddd;
-    color: #1c4024;
+    color: #fff;
 }
  
 /* Add a color to the active/current link */
